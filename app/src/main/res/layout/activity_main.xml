@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.themelon.memory_game.MainActivity">
+
+    <ImageButton
+        android:layout_width="110dp"
+        android:layout_height="160dp"
+        android:id="@+id/imageButton"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="110dp"
+        android:layout_height="160dp"
+        android:id="@+id/imageButton2"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageButton"
+        android:layout_toEndOf="@+id/imageButton" />
+
+    <ImageButton
+        android:layout_width="115dp"
+        android:layout_height="160dp"
+        android:id="@+id/imageButton3"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/imageButton"
+        android:layout_toStartOf="@+id/imageButton" />
+
+    <ImageButton
+        android:layout_width="110dp"
+        android:layout_height="160dp"
+        android:id="@+id/imageButton4"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="110dp"
+        android:layout_height="160dp"
+        android:id="@+id/imageButton6"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="110dp"
+        android:layout_height="160dp"
+        android:id="@+id/imageButton8"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/imageButton2"
+        android:layout_alignStart="@+id/imageButton2" />
+
+    <ImageButton
+        android:layout_width="110dp"
+        android:layout_height="160dp"
+        android:id="@+id/imageButton9"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/imageButton4"
+        android:layout_toStartOf="@+id/imageButton4" />
+
+    <ImageButton
+        android:layout_width="110dp"
+        android:layout_height="160dp"
+        android:id="@+id/imageButton10"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/imageButton6"
+        android:layout_toStartOf="@+id/imageButton6" />
+
+    <ImageButton
+        android:layout_width="110dp"
+        android:layout_height="160dp"
+        android:id="@+id/imageButton11"
+        android:layout_below="@+id/imageButton4"
+        android:layout_toRightOf="@+id/imageButton6"
+        android:layout_toEndOf="@+id/imageButton6" />
+</RelativeLayout>
