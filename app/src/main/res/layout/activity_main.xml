@@ -8,20 +8,21 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.themelon.memory_game.MainActivity"
-    android:background="#080808">
+    android:background="#000000"
+    android:contextClickable="false">
 
     <ImageButton
         android:layout_width="105dp"
         android:layout_height="150dp"
-        android:id="@+id/imageButton"
+        android:id="@+id/PurpleButton"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:background="#4a148c" />
+        android:background="@drawable/purple_color_change" />
 
     <ImageButton
         android:layout_width="105dp"
         android:layout_height="150dp"
-        android:id="@+id/imageButton2"
+        android:id="@+id/BlueButton"
         android:background="#1a237e"
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
@@ -30,7 +31,7 @@
     <ImageButton
         android:layout_width="105dp"
         android:layout_height="150dp"
-        android:id="@+id/imageButton3"
+        android:id="@+id/RedButton"
         android:background="#d50000"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
@@ -39,7 +40,7 @@
     <ImageButton
         android:layout_width="105dp"
         android:layout_height="150dp"
-        android:id="@+id/imageButton4"
+        android:id="@+id/OrangeButton"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
         android:background="#e65100" />
@@ -47,7 +48,7 @@
     <ImageButton
         android:layout_width="105dp"
         android:layout_height="150dp"
-        android:id="@+id/imageButton6"
+        android:id="@+id/PinkButton"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:background="#ff80ab" />
@@ -55,25 +56,25 @@
     <ImageButton
         android:layout_width="105dp"
         android:layout_height="150dp"
-        android:id="@+id/imageButton8"
+        android:id="@+id/YellowButton"
         android:layout_centerVertical="true"
-        android:layout_alignLeft="@+id/imageButton2"
-        android:layout_alignStart="@+id/imageButton2"
+        android:layout_alignLeft="@+id/BlueButton"
+        android:layout_alignStart="@+id/BlueButton"
         android:background="#ffff00" />
 
     <ImageButton
         android:layout_width="105dp"
         android:layout_height="150dp"
-        android:id="@+id/imageButton9"
+        android:id="@+id/GreenButton"
         android:background="#1b5e20"
-        android:layout_alignTop="@+id/imageButton4"
+        android:layout_alignTop="@+id/OrangeButton"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
     <ImageButton
         android:layout_width="105dp"
         android:layout_height="150dp"
-        android:id="@+id/imageButton10"
+        android:id="@+id/BrownButton"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
@@ -82,7 +83,7 @@
     <ImageButton
         android:layout_width="105dp"
         android:layout_height="150dp"
-        android:id="@+id/imageButton11"
+        android:id="@+id/TealButton"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
