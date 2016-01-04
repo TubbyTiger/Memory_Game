@@ -23,7 +23,7 @@
         android:layout_width="105dp"
         android:layout_height="150dp"
         android:id="@+id/BlueButton"
-        android:background="#1a237e"
+        android:background="@drawable/blue_color_change"
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
@@ -32,7 +32,7 @@
         android:layout_width="105dp"
         android:layout_height="150dp"
         android:id="@+id/RedButton"
-        android:background="#d50000"
+        android:background="@drawable/red_color_change"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
@@ -43,7 +43,7 @@
         android:id="@+id/OrangeButton"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
-        android:background="#e65100" />
+        android:background="@drawable/orange_color_change" />
 
     <ImageButton
         android:layout_width="105dp"
@@ -51,7 +51,7 @@
         android:id="@+id/PinkButton"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:background="#ff80ab" />
+        android:background="@drawable/pink_color_change" />
 
     <ImageButton
         android:layout_width="105dp"
@@ -60,13 +60,13 @@
         android:layout_centerVertical="true"
         android:layout_alignLeft="@+id/BlueButton"
         android:layout_alignStart="@+id/BlueButton"
-        android:background="#ffff00" />
+        android:background="@drawable/yellow_color_change" />
 
     <ImageButton
         android:layout_width="105dp"
         android:layout_height="150dp"
         android:id="@+id/GreenButton"
-        android:background="#1b5e20"
+        android:background="@drawable/green_color_change"
         android:layout_alignTop="@+id/OrangeButton"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
@@ -78,7 +78,7 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:background="#3e2723" />
+        android:background="@drawable/brown_color_change" />
 
     <ImageButton
         android:layout_width="105dp"
@@ -87,5 +87,5 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:background="#00bcd4" />
+        android:background="@drawable/teal_color_change" />
 </RelativeLayout>

@@ -5,9 +5,39 @@
     <color name="colorAccent">#FF4081</color>
 
 
-    <color name="purple_pressed">#F3E5F5</color>
-    <color name="purple_focused">#F3E5F5</color>
+    <color name="blue_pressed">#FAFAFA</color>
+    <color name="blue_focused">#FAFAFA</color>
+    <color name="blue_default">#1a237e</color>
+
+    <color name="brown_pressed">#FAFAFA</color>
+    <color name="brown_focused">#FAFAFA</color>
+    <color name="brown_default">#3e2723</color>
+
+    <color name="green_pressed">#FAFAFA</color>
+    <color name="green_focused">#FAFAFA</color>
+    <color name="green_default">#1b5e20</color>
+
+    <color name="orange_pressed">#FAFAFA</color>
+    <color name="orange_focused">#FAFAFA</color>
+    <color name="orange_default">#e65100</color>
+
+    <color name="pink_pressed">#FAFAFA</color>
+    <color name="pink_focused">#FAFAFA</color>
+    <color name="pink_default">#ff80ab</color>
+
+    <color name="purple_pressed">#FAFAFA</color>
+    <color name="purple_focused">#FAFAFA</color>
     <color name="purple_default">#4a148c</color>
 
+    <color name="red_pressed">#FAFAFA</color>
+    <color name="red_focused">#FAFAFA</color>
+    <color name="red_default">#d50000</color>
 
+    <color name="teal_pressed">#FAFAFA</color>
+    <color name="teal_focused">#FAFAFA</color>
+    <color name="teal_default">#00bcd4</color>
+
+    <color name="yellow_pressed">#FAFAFA</color>
+    <color name="yellow_focused">#FAFAFA</color>
+    <color name="yellow_default">#ffff00</color>
 </resources>
